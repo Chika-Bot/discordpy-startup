@@ -34,7 +34,7 @@ async def help(ctx):
     await ctx.send('準備中です。')
             
 @bot.command()
-async def cmd-test(ctx):
+async def cmdtest(ctx):
     await ctx.send('コマンドは受理されています。')
     
 @bot.command()
